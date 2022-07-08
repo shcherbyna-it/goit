@@ -1,0 +1,221 @@
+:root {
+  --primary-text-color: rgba(117, 117, 117, 1);
+  --hero-text-color: rgba(255, 255, 255, 1);
+  --section-title-color: rgba(33, 33, 33, 1);
+  --accent-color: rgba(33, 150, 243, 1);
+  --main-bg-color: rgba(255, 255, 255, 1);
+  --hero-bg-color: rgba(47, 48, 58, 1);
+  --footer-bg-color: rgba(47, 48, 58, 1);
+  --section-bg-color: rgba(245, 244, 250, 1);
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Header */
+/* Logo */
+
+/* .page-header {
+  display: flex;
+  justify-content: center;
+} */
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+  color: var(--accent-color);
+}
+
+.logo-accent {
+  color: #000;
+}
+
+/* Navigation */
+.site-nav .link {
+  color: var(--section-title-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contacts-nav .link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.contacts-nav .link:hover,
+.site-nav .link:focus,
+.contacts-nav .focus:hover {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+  width: 1600px;
+  height: 600px;
+  background-color: var(--hero-bg-color);
+}
+
+.hero-title {
+  color: var(--hero-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  background-color: var(--accent-color);
+  color: var(--main-bg-color);
+  cursor: pointer;
+}
+
+/* Section */
+/* Benefits */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.section-title,
+.benefits-list .title {
+  color: var(--section-title-color);
+}
+
+.benefits-list .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+/* Team list */
+.team-list .title {
+  color: var(--section-title-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* text-align: center; */
+}
+
+.team-list p {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* Footer */
+
+.page-footer {
+  background-color: var(--footer-bg-color);
+}
+
+.footer-list .link {
+  color: var(--hero-text-color);
+  text-decoration: none;
+}
+
+.footer-list .contacts {
+  color: var(--hero-text-color);
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.footer-list .contacts:hover,
+.footer-list .contacts:focus,
+.footer-list .link:hover,
+.footer-list .link:focus {
+  color: var(--accent-color);
+}
+
+.section.odd {
+  background-color: var(--section-bg-color);
+}
+
+.footer-list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Portfolio */
+
+/* .filter {
+  display: inline;
+  text-align: center;
+} */
+
+/* Filter button */
+.filter-list .btn {
+  background-color: var(--section-bg-color);
+  color: var(--section-title-color);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  border-radius: 4px;
+  border-color: transparent;
+  padding: 6px 22px;
+  cursor: pointer;
+}
+
+.filter-list .btn:hover,
+.filter-list .btn:focus {
+  background-color: var(--accent-color);
+  color: var(--main-bg-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+/* Work example */
+/* .work-example {
+  display: flex;
+  justify-content: center;
+} */
+.work-example-list .link {
+  text-decoration: none;
+}
+
+.work-example-list .title {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.work-example-list p {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.89;
+}
