@@ -68,8 +68,8 @@ body {
 
 /* Hero */
 .hero {
-  width: 1600px;
-  height: 600px;
+  /* width: 1600px;
+  height: 600px; */
   background-color: var(--hero-bg-color);
 }
 
@@ -210,16 +210,16 @@ body {
 }
 
 .work-example-list .title {
+  color: var(--section-title-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--section-title-color);
 }
 
 .work-example-list p {
+  color: var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.89;
-  color: var(--primary-text-color);
 }
